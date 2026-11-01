@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="app_bar_height">64dp</dimen>  <!-- Lebih besar di layar besar -->
+    <dimen name="text_margin">24dp</dimen>     <!-- Margin lebih besar di layar besar -->
+    <dimen name="button_height" tools:ignore="MissingDefaultResource">56dp</dimen>   <!-- Tombol lebih besar di layar besar -->
+</resources>

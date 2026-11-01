@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TomatoCare</string>
+    <string name="title_activity_profile">Profil</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="tomato_plant_icon">Ilustrasi tanaman tomat</string>
+    <string name="leaf_icon">Ilustrasi daun tomat</string>
+    <string name="detect_icon">Ikon deteksi kamera</string>
+    <string name="info_icon">Ikon informasi</string>
+    <string name="profile_icon">Ikon profil</string>
+    <string name="home_subtitle">Kenali dan rawat kesehatan daun tomat</string>
+    <string name="home_eyebrow">PERTANIAN PRESISI  /  TOMAT</string>
+    <string name="home_headline">Kenali kondisi\ndaun tomat Anda.</string>
+    <string name="home_description">Pemeriksaan berbantuan AI untuk membantu mengamati kesehatan tanaman sejak dini.</string>
+    <string name="home_primary_action">Mulai pemeriksaan</string>
+    <string name="home_scan_hint">Gunakan foto daun yang jelas dengan pencahayaan cukup.</string>
+    <string name="home_explore">JELAJAHI</string>
+    <string name="back">Kembali</string>
+    <string name="open_detail">Buka detail</string>
+    <string name="disease_list_eyebrow">PANDUAN TANAMAN  /  TOMAT</string>
+    <string name="disease_list_supporting">Kenali gejala yang umum dan pelajari langkah penanganan awal.</string>
+    <string name="detail_eyebrow">PANDUAN KESEHATAN TANAMAN</string>
+    <string name="detail_section_title">Gejala dan penanganan</string>
+    <string name="about_eyebrow">TENTANG APLIKASI</string>
+    <string name="profile_eyebrow">PENGEMBANG APLIKASI</string>
+    <string name="profile_name">Kholid Bakri</string>
+    <string name="profile_photo_description">Foto profil</string>
+    <string name="profile_personal_section">Informasi pribadi</string>
+    <string name="profile_gender_label">Jenis kelamin</string>
+    <string name="profile_gender">Laki-laki</string>
+    <string name="profile_email_label">Email</string>
+    <string name="profile_email">20200810009@uniku.ac.id</string>
+    <string name="profile_location_label">Lokasi</string>
+    <string name="profile_location">Kuningan, Jawa Barat</string>
+    <string name="profile_academic_section">Informasi akademik</string>
+    <string name="profile_program_label">Program studi</string>
+    <string name="profile_program">Teknik Informatika</string>
+    <string name="profile_semester_label">Semester</string>
+    <string name="profile_semester">8</string>
+    <string name="home_section_title">Rawat tanaman tomatmu</string>
+    <string name="home_section_subtitle">Pilih fitur untuk memulai</string>
+    <string name="detect_title">Deteksi Kesehatan Daun</string>
+    <string name="detect_subtitle">Pindai daun tomat menggunakan kamera</string>
+    <string name="disease_title">Kenali Penyakit Daun</string>
+    <string name="disease_subtitle">Pelajari gejala dan cara penanganannya</string>
+    <string name="info_title">Informasi Aplikasi</string>
+    <string name="info_subtitle">Tentang cara kerja TomatoCare</string>
+    <string name="profile_title">Profil Peneliti</string>
+    <string name="profile_subtitle">Informasi pengembang aplikasi</string>
+    <string name="image_detection_title">Deteksi dari Gambar</string>
+    <string name="image_detection_subtitle">Pilih foto daun dari galeri atau kamera</string>
+    <string name="image_detection_eyebrow">PEMERIKSAAN GAMBAR  /  TOMAT</string>
+    <string name="image_detection_description">Pilih gambar daun tomat untuk mengetahui kelas kondisi dan mempelajari penjelasannya.</string>
+    <string name="image_upload_prompt">Ketuk di sini untuk memilih gambar dari galeri atau mengambil foto dengan kamera.</string>
+    <string name="image_preview_description">Pratinjau gambar yang diperiksa</string>
+    <string name="image_upload_button">Upload gambar</string>
+    <string name="image_source_title">Pilih sumber gambar</string>
+    <string name="image_source_gallery">Pilih dari galeri</string>
+    <string name="image_source_camera">Ambil dari kamera</string>
+    <string name="image_analyzing">Gambar sedang dianalisis...</string>
+    <string name="image_analysis_failed">Gambar tidak dapat dianalisis. Silakan coba gambar lain.</string>
+    <string name="image_analysis_error">Gagal memeriksa gambar: %1$s</string>
+    <string name="image_analysis_complete">Hasil pemeriksaan</string>
+    <string name="image_result_eyebrow">KELAS YANG TERDETEKSI</string>
+    <string name="image_confidence">Tingkat keyakinan: %.1f%%</string>
+    <string name="not_tomato_leaf_description">Gambar ini tidak dikenali sebagai salah satu kelas daun tomat yang didukung.</string>
+    <string name="not_tomato_leaf_detail">&lt;p&gt;&lt;b&gt;Saran:&lt;/b&gt; Ambil foto satu daun tomat dengan jelas, pencahayaan cukup, dan latar yang tidak ramai.&lt;/p&gt;</string>
+    <string name="low_confidence_description">Hasil pemeriksaan belum cukup yakin untuk menentukan kondisi daun.</string>
+    <string name="low_confidence_detail">&lt;p&gt;&lt;b&gt;Saran:&lt;/b&gt; Coba gunakan foto daun yang lebih dekat, tidak buram, dan memiliki pencahayaan yang merata.&lt;/p&gt;</string>
+    <string name="disease_list_title">Penyakit Daun Tomat</string>
+    <string name="about_title">Tentang TomatoCare</string>
+    <string name="about_text">TomatoCare membantu mengenali kondisi daun tomat melalui kamera dan menyediakan informasi singkat mengenai gejala serta penanganan awal.</string>
+    <string name="about_note">Hasil deteksi merupakan panduan awal, bukan diagnosis pasti. Periksa kondisi tanaman secara menyeluruh dan konsultasikan dengan penyuluh pertanian bila gejala berlanjut.</string>
+    <string name="supported_classes_title">Kelas yang dapat dikenali</string>
+    <string name="supported_classes">- Busuk Kering - Leaf Mold\n- Bercak Coklat - Septoria\n- Bercak Coklat - Early Blight\n- Daun Tomat Sehat\n- Busuk Basah - Late Blight</string>
+    <string name="leaf_mold_class">Busuk Kering - Leaf Mold</string>
+    <string name="septoria_class">Bercak Coklat - Septoria</string>
+    <string name="early_blight_class">Bercak Coklat - Early Blight</string>
+    <string name="healthy_leaf_class">Daun Tomat Sehat</string>
+    <string name="late_blight_class">Busuk Basah - Late Blight</string>
+
+    <string name="leaf_mold_description">Penyakit jamur yang biasanya menimbulkan bercak pucat di permukaan atas daun dan lapisan beludru di bagian bawah.</string>
+    <string name="leaf_mold_detail">&lt;p&gt;&lt;b&gt;Gejala:&lt;/b&gt; Bercak hijau kekuningan di permukaan atas daun, dengan lapisan jamur berwarna zaitun hingga cokelat di bagian bawah. Daun yang terserang dapat menguning dan mengering.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Penanganan:&lt;/b&gt; Buang daun yang terinfeksi, jaga jarak tanam dan sirkulasi udara, serta hindari membasahi daun saat menyiram. Gunakan fungisida sesuai petunjuk setempat bila diperlukan.&lt;/p&gt;</string>
+
+    <string name="septoria_description">Bercak kecil berwarna cokelat dengan bagian tengah lebih terang yang dapat menyebar pada daun.</string>
+    <string name="septoria_detail">&lt;p&gt;&lt;b&gt;Gejala:&lt;/b&gt; Bercak kecil bulat dengan tepi gelap dan pusat abu-abu atau kecokelatan, sering disertai titik-titik hitam kecil. Infeksi biasanya mulai dari daun bagian bawah.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Penanganan:&lt;/b&gt; Pangkas dan buang daun terinfeksi, bersihkan sisa tanaman, lakukan rotasi tanaman, dan siram langsung ke media tanam agar daun tetap kering.&lt;/p&gt;</string>
+
+    <string name="early_blight_description">Bercak cokelat melingkar seperti target, umumnya muncul lebih dulu pada daun yang lebih tua.</string>
+    <string name="early_blight_detail">&lt;p&gt;&lt;b&gt;Gejala:&lt;/b&gt; Bercak cokelat dengan lingkaran konsentris seperti target dan area menguning di sekelilingnya. Daun bagian bawah sering terserang lebih dahulu.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Penanganan:&lt;/b&gt; Buang daun yang sakit, gunakan mulsa untuk mengurangi percikan tanah, jaga sirkulasi udara, dan lakukan rotasi tanaman. Hindari penyiraman dari atas.&lt;/p&gt;</string>
+
+    <string name="healthy_leaf_description">Daun berwarna hijau merata tanpa bercak mencurigakan atau tanda kerusakan yang terlihat.</string>
+    <string name="healthy_leaf_detail">&lt;p&gt;&lt;b&gt;Ciri daun sehat:&lt;/b&gt; Daun berwarna hijau merata, tidak layu, dan tidak menunjukkan bercak atau lapisan jamur yang mencurigakan.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Perawatan:&lt;/b&gt; Berikan penyiraman secukupnya pada pangkal tanaman, pastikan tanaman mendapat cahaya dan sirkulasi udara yang baik, serta periksa daun secara berkala.&lt;/p&gt;</string>
+
+    <string name="late_blight_description">Penyakit serius yang dapat menyebabkan bercak basah gelap pada daun dan kerusakan cepat.</string>
+    <string name="late_blight_detail">&lt;p&gt;&lt;b&gt;Gejala:&lt;/b&gt; Bercak tidak beraturan berwarna hijau tua hingga cokelat kehitaman yang tampak basah. Dalam kondisi lembap, lapisan putih halus dapat terlihat di tepi bercak atau bagian bawah daun.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Penanganan:&lt;/b&gt; Segera buang bagian tanaman yang terinfeksi, hindari kelembapan berlebih pada tajuk, dan pisahkan sisa tanaman sakit dari kompos. Gunakan produk pengendali yang terdaftar sesuai petunjuk.&lt;/p&gt;</string>
+
+    <string name="alt_bottom_sheet_chevron">Indikator perluasan panel bawah</string>
+    <string name="alt_bottom_sheet_max_results_button_minus">Kurangi jumlah hasil klasifikasi maksimal</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Tambah jumlah hasil klasifikasi maksimal</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Kurangi ambang hasil klasifikasi</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Tambah ambang hasil klasifikasi</string>
+    <string name="alt_bottom_sheet_thread_button_minus">Kurangi jumlah thread</string>
+    <string name="alt_bottom_sheet_thread_button_plus">Tambah jumlah thread</string>
+    <string name="label_interence_time">Waktu Inferensi</string>
+    <string name="label_fps">Frame per Detik</string>
+    <string name="label_confidence_threshold">Ambang Keyakinan</string>
+    <string name="label_max_results">Hasil Maksimal</string>
+    <string name="label_threads">Jumlah Thread</string>
+    <string name="label_delegate">Delegate</string>
+    <string name="label_models">Model ML</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="models_spinner_titles">
+        <item>MobileNet V1</item>
+        <item>EfficientNet Lite0</item>
+        <item>EfficientNet Lite1</item>
+        <item>EfficientNet Lite2</item>
+    </string-array>
+</resources>
